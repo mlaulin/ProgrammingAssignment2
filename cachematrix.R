@@ -22,6 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set, get = get,
        setinverse = setinverse,
        getinverse = getinverse)
+  
 }
 
 
@@ -45,3 +46,4 @@ cacheSolve <- function(x, ...) {
     
     return(invMx)
   }
+}
